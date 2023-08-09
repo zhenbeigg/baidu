@@ -1,0 +1,21 @@
+{
+    "name": "eykj/baidu",
+    "description": "一一科技百度组件",
+    "license": "MIT",
+    "keywords": [
+        "eykj",
+        "baidu"
+    ],
+    "require": {
+    },
+    "autoload": {
+        "psr-4": {
+            "Eykj\\Baidu\\": "src/"
+        },
+        "files": [
+        ]
+    },
+    "config": {
+        "sort-packages": true
+    }
+}
