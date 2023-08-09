@@ -36,7 +36,7 @@ class Dish
         if (isset($r["error_code"])) {
             error(500, $r['error_msg']);
         }
-        return $r["result"];
+        return $r;
     }
 
     /**
@@ -51,7 +51,7 @@ class Dish
         if (isset($r["error_code"])) {
             error(500, $r['error_msg']);
         }
-        return $r["result"];
+        return $r;
     }
 
     /**
@@ -66,6 +66,6 @@ class Dish
         if (isset($r["error_code"])) {
             error(500, $r['error_msg']);
         }
-        return $r["result"];
+        return $r;
     }
 }
