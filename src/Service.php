@@ -3,9 +3,9 @@
  * @author: 布尔
  * @name: 钉钉Service类
  * @desc: 介绍
- * @LastEditTime: 2023-07-06 11:49:45
+ * @LastEditTime: 2023-08-09 20:18:16
  */
-namespace Eykj\Dtalk;
+namespace Eykj\Baidu;
 
 use Eykj\Base\GuzzleHttp;
 use function Hyperf\Support\env;
