@@ -3,7 +3,7 @@
  * @author: 布尔
  * @name:  菜品识别
  * @desc: 介绍
- * @LastEditTime: 2023-08-11 08:15:00
+ * @LastEditTime: 2023-08-11 11:32:10
  */
 namespace Eykj\Baidu;
 
@@ -45,6 +45,10 @@ class Dish
                 
                 case '216200':
                     error(500, '上传图片未检测到菜品');
+                    break;
+                
+                case '216681':
+                    error(500, '上传图片已存在菜品库');
                     break;
                 
                 default:
