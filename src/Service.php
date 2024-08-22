@@ -35,11 +35,11 @@ class Service
             if (isset($r["error"])) {
                 error(500, $r['error_description']);
             } else {
-                redis()->set($param['api_key'] . 'baidu_access_token', $r["access_token"], $r['expires_in']);
+                redis()->set($param['api_key'] . '_baidu_access_token', $r["access_token"], $r['expires_in']);
                 return $r["access_token"];
             }
         } else {
-            return redis()->get($param['api_key'] . 'baidu_access_token');
+            return redis()->get($param['api_key'] . '_baidu_access_token');
         }
     }
 }
